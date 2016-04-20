@@ -1,5 +1,5 @@
 module.exports = {
-  "rules": {
+  rules: {
     "no-console": "off",
     "react/jsx-closing-bracket-location": ["error", "after-props"],
     "react/jsx-curly-spacing": ["error", "always"],
