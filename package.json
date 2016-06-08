@@ -5,10 +5,8 @@
   "repository": "artcom/eslint-config-artcom-react",
   "main": "index.js",
   "license": "MIT",
-  "dependencies": {
-    "eslint-config-airbnb": "^7.0.0"
-  },
   "peerDependencies": {
-    "eslint-config-artcom": "^0.2.0"
+    "eslint-config-artcom": "^0.3.0",
+    "eslint-plugin-react": "^5.1.1"
   }
 }
