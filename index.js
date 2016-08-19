@@ -38,7 +38,6 @@ module.exports = {
     "react/jsx-space-before-closing": 2,
     "react/sort-comp": [2, {
       "order": ["static-methods", "lifecycle", "render", "everything-else"]
-    }],
-    "react/wrap-multilines": 2
+    }]
   }
 }
