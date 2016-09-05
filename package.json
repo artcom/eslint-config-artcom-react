@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-artcom-react",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "ESLint configuration for React projects used at ART+COM",
   "repository": "artcom/eslint-config-artcom-react",
   "main": "index.js",
