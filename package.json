@@ -6,7 +6,7 @@
   "main": "index.js",
   "license": "MIT",
   "peerDependencies": {
-    "eslint-config-artcom": "^0.3.0",
-    "eslint-plugin-react": "^5.1.1"
+    "eslint-config-artcom": "^0.4.0",
+    "eslint-plugin-react": "^6.2.0"
   }
 }
