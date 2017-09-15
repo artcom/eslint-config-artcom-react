@@ -7,6 +7,6 @@
   "license": "MIT",
   "peerDependencies": {
     "eslint-config-artcom": "^0.6.0",
-    "eslint-plugin-react": "^7.1.0"
+    "eslint-plugin-react": "^7.3.0"
   }
 }
