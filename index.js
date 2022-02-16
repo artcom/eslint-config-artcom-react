@@ -2,24 +2,21 @@ module.exports = {
   extends: "artcom",
   parserOptions: {
     ecmaFeatures: {
-      "jsx": true
-    }
+      jsx: true,
+    },
   },
-  plugins: [
-    "react"
-  ],
+  plugins: ["react"],
   rules: {
     "no-console": 0,
 
     "react/jsx-boolean-value": 2,
     "react/jsx-closing-bracket-location": [2, "after-props"],
     "react/jsx-closing-tag-location": 2,
-    "react/jsx-curly-spacing": [2, { "when": "always", "children": true }],
     "react/jsx-equals-spacing": [2, "never"],
     "react/jsx-indent": [2, 2],
     "react/jsx-indent-props": [2, 2],
     "react/jsx-key": 2,
-    "react/jsx-no-bind": [2, { "ignoreRefs": true, "allowArrowFunctions": true }],
+    "react/jsx-no-bind": [2, { ignoreRefs: true, allowArrowFunctions: true }],
     "react/jsx-no-duplicate-props": 2,
     "react/jsx-no-undef": 2,
     "react/jsx-pascal-case": 2,
@@ -32,7 +29,7 @@ module.exports = {
     "react/no-direct-mutation-state": 2,
     "react/no-find-dom-node": 2,
     "react/no-is-mounted": 2,
-    "react/no-multi-comp": [2, { "ignoreStateless": true }],
+    "react/no-multi-comp": [2, { ignoreStateless: true }],
     "react/no-render-return-value": 2,
     "react/no-string-refs": 2,
     "react/no-unknown-property": 2,
@@ -42,9 +39,12 @@ module.exports = {
     "react/react-in-jsx-scope": 2,
     "react/require-render-return": 2,
     "react/self-closing-comp": 2,
-    "react/sort-comp": [2, {
-      "order": ["static-methods", "lifecycle", "render", "everything-else"]
-    }],
-    "react/void-dom-elements-no-children": 2
-  }
-}
+    "react/sort-comp": [
+      2,
+      {
+        order: ["static-methods", "lifecycle", "render", "everything-else"],
+      },
+    ],
+    "react/void-dom-elements-no-children": 2,
+  },
+};
